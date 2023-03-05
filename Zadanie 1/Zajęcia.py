@@ -1,5 +1,6 @@
 class Zajecia:
-    studenci = []
+    def __init__(self):
+        self.studenci = []
     def zapiszStudenta(self, student):
         if len(self.studenci) < 10:
             self.studenci.append(student)
